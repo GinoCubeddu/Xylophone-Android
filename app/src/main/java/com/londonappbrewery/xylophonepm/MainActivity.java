@@ -54,29 +54,36 @@ public class MainActivity extends AppCompatActivity {
 
     public void playA(View v){
         Log.d("X", "Playing Sound A");
+        mSoundPool.play(mASoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 
     public void playB(View v){
         Log.d("X", "Playing Sound B");
+        mSoundPool.play(mBSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 
     public void playC(View v){
         Log.d("X", "Playing Sound C");
+        mSoundPool.play(mCSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 
     public void playD(View v) {
         Log.d("X", "Playing Sound D");
+        mSoundPool.play(mDSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 
     public void playE(View v) {
         Log.d("X", "Playing Sound E");
+        mSoundPool.play(mESoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 
     public void playF(View v) {
         Log.d("X", "Playing Sound F");
+        mSoundPool.play(mFSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 
     public void playG(View v){
         Log.d("X", "Playing Sound G");
+        mSoundPool.play(mGSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
 }
