@@ -4,6 +4,7 @@ import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,14 +33,37 @@ public class MainActivity extends AppCompatActivity {
 
         // TODO: Create a new SoundPool
 
-
         // TODO: Load and get the IDs to identify the sounds
-
 
     }
 
     // TODO: Add the play methods triggered by the buttons
 
+    public void playA(View v){
+        Log.d("X", "Playing Sound A");
+    }
 
+    public void playB(View v){
+        Log.d("X", "Playing Sound B");
+    }
 
+    public void playC(View v){
+        Log.d("X", "Playing Sound C");
+    }
+
+    public void playD(View v) {
+        Log.d("X", "Playing Sound D");
+    }
+
+    public void playE(View v) {
+        Log.d("X", "Playing Sound E");
+    }
+
+    public void playF(View v) {
+        Log.d("X", "Playing Sound F");
+    }
+
+    public void playG(View v){
+        Log.d("X", "Playing Sound G");
+    }
 }
